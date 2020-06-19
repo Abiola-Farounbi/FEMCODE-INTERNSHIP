@@ -1,0 +1,114 @@
+body{
+    font-family: 'Lobster Two', cursive !important;
+  margin:0px;
+  padding:0px;
+
+}
+.background1{
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+.background2{
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
+.background3{
+    background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+}
+.background4{
+    background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+}
+
+    .borders{
+    
+        background-color:   white !important;
+        border-radius:0px !important;
+        filter: drop-shadow(4px 4px 3px black);
+    }
+    .heading{
+        color:white;
+        font-size:50px;
+        
+        font-weight: bold;
+    }
+.demo{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+    border:none;
+    border-radius: 15px;
+    float:right;
+}
+.borderR{
+    border-left:1px dotted black;
+}
+.footer{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    height: 5vh;
+}
+.header2{
+    background-color: white;
+}
+.centerDiv{
+    width:100%;
+    margin: 10px auto;
+    background-color:  #fe978b;
+    color:black !important;
+    border: 1px dotted white;
+}
+.demo2{
+    background-color: white;
+    border:none;
+    border-radius: 15px;
+    float:right;
+
+}
+.centerDiv input{
+    border:none;
+    border-radius: 20px;
+    padding:15px;
+    color:black !important;
+   
+
+}
+.home{
+    background-color: aliceblue;
+    border:none;
+    border-radius: 50%;
+    padding:15px;
+    float: right;
+    color:black !important;
+}
+.centerDiv2{
+    width:100%;
+    margin: 10px auto;
+    background-color:  #fe978b;
+    color:black !important;
+    border-radius:10px;
+}
+.centerDiv2 input{
+    width:90%;
+    border:none;
+    border-radius: 20px;
+    padding:5px;
+    color:black !important;
+}
+
+.centerDiv3{
+    width:100%;
+    margin: 10px auto;
+    
+    color:black !important;
+    border-radius:10px; 
+}
+.centerDiv3 input{
+    width:90%;
+    border:2px solid black;
+    border-radius: 20px;
+    padding:5px;
+    color:black !important;
+}
+.header3{
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+.color{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}

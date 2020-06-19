@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Expense Tracker</title>
+		<link rel="shortcut icon" href="../FEMCODE AFRICA.png" type="image / jpeg" / >
+		<link rel='stylesheet' href='../style.css'>
+		<link rel='stylesheet' href='../bootstrap/css/bootstrap.css' />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Piedra&display=swap" rel="stylesheet"> 
+	</head>
+	<body class='background2'>
+		<h1 class='header2 p-3 text-center'>Expense Tracker</h1>
+		<button class='home m-2'>
+			<a  style=' text-decoration: none; color:black;'  href="../index.html"> HOME </a>
+		</button>
+	  <div class="container" style='width:100%;'>
+	
+		<div class='centerDiv p-3'>
+		<h6>Total Budget : <span id="totalBudget">0</span></h6>
+		<h6>Current Balance : <span id="currentBalance">0</span></h6>
+		<hr>
+		<h4>Add Money To Budget</h4>
+		<input type="number" id="money" placeholder="add money">
+		<button class='demo2' onclick="addMoney()">Add Money</button>
+		<hr>
+		<h4>Add Expenses</h4>
+		<input type="text" id="expenseName" placeholder="expense name">
+		<input type="number" id="expenseAmount" placeholder="expense amount">
+		<button class='demo2' onclick="addExpense()">Add Expense</button>
+		<h4>Added Expenses</h4>
+		<div id="addedExpenses">
+		</div>	
+		</div>
+	  </div>
+		<script src="js/expense.js" type="text/javascript"></script>
+	</body>
+</html>
