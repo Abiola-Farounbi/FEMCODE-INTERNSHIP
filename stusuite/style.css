@@ -35,6 +35,7 @@ body{
     border:none;
     border-radius: 15px;
     float:right;
+   color:white ! important;
 }
 .borderR{
     border-left:1px dotted black;
@@ -111,4 +112,18 @@ body{
 }
 .color{
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.footer{
+position:fixed;
+bottom:0;
+left:0;
+margin:0 auto;
+width:100%;
+z-index:5;
+display:flex;
+height:5vmin;
+justify-content:space-evenly;
+align-items:center;
+color:black;
+background-color:black;
 }
